@@ -28,12 +28,31 @@
   margin-left: 3%;
   }
 
+/*.intro{
+  font-size: 17px;
+  line-height: 24px
+  font-style: italic;
+  font-color: ;
+}
+*/
+
   h1, h2, h3{
-    font-family: /*add font*/
+    font-family: Helvetica;
+  }
+
+  h3{
+    margin-top: 12px;
+    margin-bottom: 4px;
+  }
+
+  h2{
+    margin-top: 16px;
+    margin-bottom: 4px;
   }
 
   p{
-    font-family: /*add font*/
+    margin-bottom: 8px;
+    font-family: Helvetica;
   }
 
   img{
@@ -41,6 +60,7 @@
   }
 
 @media (min-width: 645px) {
+
   #main_container{
     overflow: hidden;
   }
