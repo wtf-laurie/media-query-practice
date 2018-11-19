@@ -63,25 +63,36 @@
 
   #main_container{
     overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   #intro_column{
     float: left;
+    width: 90%;
   }
 
   #current_column{
-    width: 46%;
+    width: 43%;
     float: left;
   }
 
   #coming_soon_column{
-    width: 46%;
+    width: 43%;
     float: left;
-    margin-left: 2%;
+    margin-left: 4%;
   }
 }
 
 @media (min-width: 1080px) {
+  body{
+    background-image: url("images/x-gray.png");
+  }
+
+  #main_container{
+    align-content: center;
+  }
+
   #intro_column{
     width: 30%;
   }
